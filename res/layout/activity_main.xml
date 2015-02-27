@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context="tk.upchan.llprofileswitcher.activity.MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <Spinner
+            android:id="@+id/sp_profiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_backup_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备份存档" />
+
+        <Button
+            android:id="@+id/btn_restore_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恢复存档" />
+
+        <Button
+            android:id="@+id/btn_remove_current_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除当前存档" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="invisible" />
+
+</LinearLayout>

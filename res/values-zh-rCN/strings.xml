@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LL Profile Switcher</string>
+    <string name="error">错误</string>
+    <string name="warning">警告</string>
+	<string name="ll_data_dir_not_exists">找不到LL数据目录</string>
+	<string name="input_profile_name">输入备份名</string>
+	<string name="overwriting_warning">覆盖原有存档？</string>
+	<string name="remove_warning">删除当前存档？</string>
+	<string name="no_root_access">没ROOT你点个4.1</string>
+    
+</resources>

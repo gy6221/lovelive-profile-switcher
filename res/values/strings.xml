@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LL Profile Switcher</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+	<string name="ll_data_dir_not_exists">LL data directory not found!</string>
+	<string name="input_profile_name">Input profile name</string>
+	<string name="overwriting_warning">Overwriting profile, continue?</string>
+	<string name="no_root_access">No root access!</string>
+    
+</resources>
